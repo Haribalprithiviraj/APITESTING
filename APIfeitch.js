@@ -14,6 +14,6 @@ fetch('https://jsonplaceholder.typicode.com/posts')
     });
 }
 )
- .catch(erroe=>{
+ .catch(Error=>{
     console.log("Error")
  })
