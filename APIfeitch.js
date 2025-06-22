@@ -13,7 +13,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
             `
     });
 }
+)
  .catch(erroe=>{
     console.log("Error")
  })
-)
