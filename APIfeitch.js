@@ -12,4 +12,8 @@ fetch('https://jsonplaceholder.typicode.com/posts')
          </div>   
             `
     });
-})
+}
+ .catch(erroe=>{
+    console.log("Error")
+ })
+)
